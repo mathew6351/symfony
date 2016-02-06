@@ -1,8 +1,0 @@
-app:
-    resource: "@AppBundle/Controller/"
-    type:     annotation
-
-do_payment:
-	path: /do/payment
-	defaults:
-		_controller: AppBundle:doPayment
